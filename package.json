@@ -2,13 +2,13 @@
   "name": "ALI",
   "version": "7.3.6",
   "description": "Ajuser is the Modified Version of WhatsAsena, Made By @ACES with Baileys.",
-  "main": "./Ajuser/bot.js",
+  "main": "./Aces/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aju001/Ajuser"
+    "url": "git+"
   },
   "keywords": [
     "whatsapp",
