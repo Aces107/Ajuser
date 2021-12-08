@@ -1,7 +1,7 @@
 {
-  "name": "SemoBot",
+  "name": "ALI",
   "version": "7.3.6",
-  "description": "Ajuser is the Modified Version of WhatsAsena, Made By @aju with Baileys.",
+  "description": "Ajuser is the Modified Version of WhatsAsena, Made By @ACES with Baileys.",
   "main": "./Ajuser/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
@@ -13,17 +13,18 @@
   "keywords": [
     "whatsapp",
     "bot",
-    "ai",
+    "aces",
     "asena",
     "WhatsAsena"
+  
   ],
-  "author": "aju",
+  "author": "aces",
   "developer": "@aju001 / @aju001",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/aju001/Ajuser/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/aju001/Ajuser#readme",
+  "homepage": "",
   "dependencies": {
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
