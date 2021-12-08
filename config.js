@@ -71,7 +71,7 @@ module.exports = {
     SUDO: process.env.SUDO === undefined ? false : process.env.SUDO,
     DEBUG: DEBUG,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
-    SUPPORT: "https://wa.me/+966‪537973938",
+    SUPPORT: "+966‪537973938",
     
    
    
