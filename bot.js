@@ -1,9 +1,9 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 202 Aces.
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+Whatsaces - Aces
 */
 
 const fs = require("fs");
@@ -60,7 +60,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function whatsAces () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
@@ -98,7 +98,7 @@ async function whatsAsena () {
     })    
 
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Aces')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
 
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
@@ -137,7 +137,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Ajuser bot working aan😎!')
+            chalk.green.bold('✅ Aces bot working aan😎!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -184,7 +184,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*AJUSER BOT WORKING AYI😜*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*ACES BOT WORKING AYI😜*', MessageType.text);
                 }
 
             }
@@ -299,19 +299,19 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var abc = config.BLOCKCHAT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? abc.includes(msg.key.remoteJid.split('@')[0]) : abc.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT == '905524317852-1612300121') {     
+    if (config.SUPPORT == 'https://wa.me/+966‪537973938) {     
         var sup = config.SUPPORT.split(',');                            
         if(msg.key.remoteJid.includes('-') ? sup.includes(msg.key.remoteJid.split('@')[0]) : sup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT2 == '917012074386-1631435717') {     
+    if (config.SUPPORT2 == ') {     
         var tsup = config.SUPPORT2.split(',');                            
         if(msg.key.remoteJid.includes('-') ? tsup.includes(msg.key.remoteJid.split('@')[0]) : tsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT3 == '905511384572-1621015274') {     
+    if (config.SUPPORT3 == 'https://wa.me/+966‪537973938) {     
         var nsup = config.SUPPORT3.split(',');                            
         if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
-    if (config.SUPPORT4 == '905511384572-1625319286') {     
+    if (config.SUPPORT4 == '0537973938) {     
         var nsup = config.SUPPORT4.split(',');                            
         if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
     }
@@ -383,7 +383,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                             await command.function(whats, match);
                         } catch (error) {
                             if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
+                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSAcEs] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
                                     '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
@@ -391,8 +391,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~Ajuser~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report🥲 errors\njoin with \n https://chat.whatsapp.com/HebsCx7CBxMJBLqyeHemcO``` ' 
+                                await conn.sendMessage(conn.user.jid, '*~Aces~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Report🥲 errors\njoin with \n https://wa.me/+966‪537973938``` ' 
                                     , MessageType.text);
                             }
                         }
@@ -417,4 +417,4 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     }
 }
 
-whatsAsena();
+whatsAces();
