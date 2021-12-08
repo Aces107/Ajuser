@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://ibb.co/4wyvT9j"><img src="https://i.ibb.co/Y2mXdR5/ajuser.jpg""width="170" height="170"/>
   <p align="center">
-<a href="#"><img title="Ajuser_v2" src="https://img.shields.io/badge/-Ajuser-blue?&style=for-the-badge"></a>
+<a href="#"><img title="Ajuser_v2" src="https://images.app.goo.gl/3uPFsKRZapRxjRKm8"></a>
 </p>
   </p>
 <p align="center">
